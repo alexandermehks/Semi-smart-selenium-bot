@@ -4,10 +4,10 @@ import time
 import sqlite3
 from datetime import date
 
-dbConnection = "/home/am/Desktop/Databases/work_scraper.db"
+dbConnection = "PATH TO DB"
 
 def index():
-    PATH = "/usr/bin/chromedriver"
+    PATH = "PATH TO CHROMEDRIVER"
     driver = webdriver.Chrome(PATH)
     searchList = ["12,3M"]
     try:
