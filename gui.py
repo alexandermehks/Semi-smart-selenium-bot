@@ -40,7 +40,7 @@ def click_function_get_job():
 
 def open_driver():
     job = click_function_get_job()
-    PATH = "/usr/bin/chromedriver"
+    PATH = "PATH TO CHROMEDRIVER"
     driver = webdriver.Chrome(PATH)
     driver.get(job[0])
 
