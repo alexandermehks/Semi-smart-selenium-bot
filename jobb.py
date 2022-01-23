@@ -7,7 +7,8 @@ from datetime import date
 dbConnection = "PATH TO DB"
 
 def index():
-    PATH = "/usr/bin/geckodriver"
+    #PATH = "IF YOU NEED GECKODRIVER PATH"
+    #driver = webdiver.Firefox(PATH)
     driver = webdriver.Firefox()
     searchList = ["python","junior", "javascript","c++"]
     try:
